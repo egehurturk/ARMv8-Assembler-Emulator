@@ -1,11 +1,13 @@
 # Building
 
 ```
+cd src
 make
 ```
 * Builds the executables `emulate` and `assemble` inside `out/emulator` and `out/assembler`, respectively
 
 ```
+cd src
 make clean
 ```
 * Removes all the object files and executables under `out`
